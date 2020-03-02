@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>t-dotnetcore-webapi</name>
+    </assembly>
+    <members>
+        <member name="T:t_dotnetcore_webapi.Controllers.WeatherForecastController">
+            <summary>
+            Creates a TodoItem.
+            </summary>    
+            <response code="400">Requisição inválida</response>   
+            <response code="404">A página requerida é inexistente</response>   
+            <response code="500">Erro interno de servidor</response>            
+        </member>
+        <member name="M:t_dotnetcore_webapi.Controllers.WeatherForecastController.Get">
+            <summary>
+            Listar itens.
+            </summary>
+        </member>
+    </members>
+</doc>
